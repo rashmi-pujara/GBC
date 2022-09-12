@@ -60,7 +60,6 @@ def save_file(text):
 	text = clean(text)
 	with open(fname, "w") as f:
 		f.write(text)
-	f.close()
 	# Code ends here
 
 	print(f'File saved in directory {fname}')
